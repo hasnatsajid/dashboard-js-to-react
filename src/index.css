@@ -23515,11 +23515,12 @@ fieldset:disabled .btn {
 }
 
 .sidebar .nav {
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 
 .sidebar .nav-item {
   margin-bottom: 0.2rem;
+  width: 220px;
 }
 
 .sidebar .nav-item.active > .nav-link {
