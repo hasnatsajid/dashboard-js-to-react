@@ -23520,7 +23520,7 @@ fieldset:disabled .btn {
 
 .sidebar .nav-item {
   margin-bottom: 0.2rem;
-  width: 220px;
+  max-width: 220px;
 }
 
 .sidebar .nav-item.active > .nav-link {
@@ -30135,4 +30135,27 @@ article .h6 {
 
 .datepicker-dropdown {
   z-index: 9999;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2937; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #111827; 
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #111827; 
 }
